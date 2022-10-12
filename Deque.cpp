@@ -32,3 +32,23 @@ int main()
 
     return 0;
 }
+
+// This is Deque
+// This is file for Deque
+// This is one of the method to pop 
+// Made By Chetan Lohkare
+
+// This is Deque
+// This is file for Deque
+// This is one of the method to pop 
+// Made By Chetan Lohkare
+
+// This is Deque
+// This is file for Deque
+// This is one of the method to pop 
+// Made By Chetan Lohkare
+
+// This is Deque
+// This is file for Deque
+// This is one of the method to pop 
+// Made By Chetan Lohkare
