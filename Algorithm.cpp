@@ -46,21 +46,21 @@ int main()
 
     // last: A forward iterator pointing the position one past the final element in the range in which the elements are being reversed.
 
-    // cout << "Before rotate -> " << endl;
+    cout << "Before rotate -> " << endl;
 
     for (int i : v)
     {
         cout << i << " ";
     }
 
-    // rotate(v.begin(), v.end() - 2, v.end());
+    rotate(v.begin(), v.end() - 2, v.end());
 
-    // cout << "\nAfter rotate -> " << endl;
+    cout << "\nAfter rotate -> " << endl;
 
-    // for (int i : v)
-    // {
-    //     cout << i << " ";
-    // }
+    for (int i : v)
+    {
+        cout << i << " ";
+    }
 
     // Sort Function
     // Based on Intro Sort Quick sort , Heap Sort , Insertion Sort
