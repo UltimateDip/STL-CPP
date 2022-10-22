@@ -16,7 +16,7 @@ int main()
     maxHeap.push(0);
     maxHeap.push(3);
 
-    cout << "Size of Max Head -> " << maxHeap.size() << endl;
+    cout << "Size of Max Head before popping -> " << maxHeap.size() << endl;
 
     int max = maxHeap.size();
 
@@ -26,7 +26,7 @@ int main()
         maxHeap.pop();
     }
 
-    // cout << "Size of Max Head after popping -> " << maxHeap.size() << endl;
+    cout << "Size of Max Head after popping -> " << maxHeap.size() << endl;
 
     // min heap
     priority_queue<int, vector<int>, greater<int>> minHeap;
