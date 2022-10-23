@@ -16,11 +16,18 @@ int main()
         cout << a[i] << endl;
     }
 
+//     cout << "Element at 2nd index : " << a.at(2) << endl;
+
+//     cout << "Empty or not : " << a.empty() << endl;
+
+//     cout << "First Element : " << a.front() << endl;
+
+//     cout << "Last Element : " << a.back() << endl;
     cout << "Element at 2nd index : " << a.at(2) << endl;
 
-    cout << "Empty or not : " << a.empty() << endl;
+     cout << "Empty or not : " << a.empty() << endl;
 
-    cout << "First Element : " << a.front() << endl;
+     cout << "First Element : " << a.front() << endl;
 
-    cout << "Last Element : " << a.back() << endl;
+     cout << "Last Element : " << a.back() << endl;
 }
