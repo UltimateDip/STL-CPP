@@ -16,7 +16,16 @@ int main()
     l.push_back(1);
     l.push_front(2);
 
-    for (int i : newlist)
+//     for (int i : newlist)
+//     {
+//         cout << i << " ";
+//     }
+//     cout << endl;
+
+//     l.erase(l.begin());
+
+//     cout << "Size of list -> " << l.size() << endl;
+for (int i : newlist)
     {
         cout << i << " ";
     }
